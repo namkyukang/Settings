@@ -1,0 +1,15 @@
+language : android
+jdk : oraclejdk7
+
+android:
+  components:
+  - platform-tools #ADB(디바이스 또는 에뮬레이터 통신)
+  - tools # 실제안드로이드 SDK
+  - build-tools-25.0.2 #빌드툴버전
+  - android-25
+  - extra-android-m2repository #디펜던시 - 라이브러리가 추가 되어 있는데 이를 실행기 위해
+
+before_install:
+  - chmod +x gradlew #grdlew를 실행해서 없으면 설치 먼저 하겠다. 권한이 없을 경우가 있으니 +x로 권한을 주겠다.
+
+script: gradelw build
