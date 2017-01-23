@@ -7,7 +7,7 @@ import android.widget.TextView;
 
 public class SettingActivity extends AppCompatActivity implements View.OnClickListener {
     Button btn;
-    //Button btn2;ddddd
+    //Button btn2;ddddd111
     TextView tv;
 
     @Override
