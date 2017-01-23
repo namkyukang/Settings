@@ -12,4 +12,4 @@ android:
 before_install:
   - chmod +x gradlew #grdlew를 실행해서 없으면 설치 먼저 하겠다. 권한이 없을 경우가 있으니 +x로 권한을 주겠다.
 
-script: ./gradelw build
+script: ./gradlew build
