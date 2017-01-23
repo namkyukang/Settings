@@ -18,7 +18,7 @@ public class SettingActivity extends AppCompatActivity implements View.OnClickLi
         btn = (Button) findViewById(R.id.button); //finViewByID?
 
         tv = (TextView) findViewById(R.id.textView);
-        //
+        //333
         //3,버튼에 onClickListener 달기
 
         btn.setOnClickListener(this);   //이 클래스에 onclickListener를 달아준다.
